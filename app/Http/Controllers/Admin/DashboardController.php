@@ -11,4 +11,9 @@ class DashboardController extends Controller
     {
         return view('admin.dashboard');
     }
+
+    public function welcome()
+    {
+        return view('admin.welcome');
+    }
 }

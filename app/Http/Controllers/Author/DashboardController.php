@@ -11,4 +11,9 @@ class DashboardController extends Controller
     {
         return view('author.dashboard');
     }
+
+    public function welcome()
+    {
+        return view('author.welcome');
+    }
 }

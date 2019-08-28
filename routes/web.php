@@ -25,6 +25,8 @@ Route::group(['as' => 'admin.', 'prefix' => 'admin', 'namespace' => 'Admin', 'mi
     function () {
 
         Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+
+        Route::get('welcome', 'DashboardController@welcome')->name('welcome');
     });
 
 //Author Routes
@@ -32,4 +34,6 @@ Route::group(['as' => 'author.', 'prefix' => 'author', 'namespace' => 'Author', 
     function () {
 
         Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+
+        Route::get('welcome', 'DashboardController@welcome')->name('welcome');
     });

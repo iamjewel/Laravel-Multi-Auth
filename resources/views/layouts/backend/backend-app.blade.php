@@ -70,13 +70,10 @@
 <script src="{{asset('/')}}assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
 <script src="{{asset('/')}}assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- SlimScroll -->
-<script src="{{asset('/')}}assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<!-- FastClick -->
-<script src="{{asset('/')}}assets/plugins/fastclick/fastclick.js"></script>
+
+
 <!-- AdminLTE App -->
 <script src="{{asset('/')}}assets/dist/js/adminlte.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="{{asset('/')}}assets/dist/js/demo.js"></script>
+
 </body>
 </html>
